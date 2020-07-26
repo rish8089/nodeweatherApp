@@ -7,6 +7,7 @@ const partialsPath = path.join(__dirname, '../templates/partials')
 const hbs = require('hbs')
 const geocode = require('../utils/geocode.js')
 const forecast = require('../utils/forecast.js')
+const port = process.env.PORT || 3000
 
 //app.com
 //app.com/help
@@ -105,6 +106,6 @@ app.get('*', (req, res) => {
 
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('server started listening on port 3000')
 })
