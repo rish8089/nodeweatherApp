@@ -1,4 +1,4 @@
-console.log('Java script client side');
+//console.log('Java script client side');
 //asynchronous io operaton
 /*fetch('http://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
