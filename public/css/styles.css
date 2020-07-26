@@ -1,0 +1,57 @@
+/*h1 {
+  color: grey;
+}
+img {
+  width: 250px;
+}*/
+
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex; /*flex box style*/
+  flex-direction: column; /* everything goes from top to bottom in flex*/
+  min-height: 100vh; /*100% of view port height, or browser height*/
+  /*
+   it helped it to stretch over 100% of browser height
+   */
+}
+.main_content {
+  flex-grow: 1; /*this makes the main content element to take all left over space*/
+}
+footer {
+  color: #888888;
+  /*border-top: 1px solid;*/
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+h1 {
+  font-size: 64px;
+}
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+button {
+  cursor: pointer;
+  background: #888888;
+  padding: 8px;
+  border: 1px solid #888888;
+  color: white;
+}
+.portrait {
+  width: 250px;
+}
